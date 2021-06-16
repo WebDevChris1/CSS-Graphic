@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.orange-border {
+  border: 15px solid #ee8729;
+  height: 30%;
+  width: 55%;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+
+.big-text {
+  font-size: 90px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 31%;
+  left: 30%;
+  z-index: 1;
+}
+
+.blue-rectangle {
+  width: 46.5%;
+  height: 35%;
+  background-color: #309cc6;
+  opacity: 0.4;
+  position: absolute;
+  top: 13%;
+  right: 21.01%;
+  z-index: 3;
+}
+
+.green-rectangle {
+  height: 45%;
+  background-color: #66d99e;
+  width: 15%;
+  position: absolute;
+  top: 25%;
+  right: 42%;
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.manipulate-text {
+  font-size: 35px;
+  font-family: monospace;
+  position: absolute;
+  top: 69.5%;
+  right: 38%;
+}
+
+.colors {
+  color: #40b3df;
+  font-size: 40px;
+  position: absolute;
+  bottom: 10%;
+  right: 49%;
+  letter-spacing: 5px;
+}
+
+.purple-rectangle {
+  width: 20%;
+  height: 6%;
+  background-color: #b4059e;
+  position: absolute;
+  bottom: 11%;
+  right: 25%;
+}
+
+.boxes {
+  font-size: 40px;
+  position: absolute;
+  right: 27.5%;
+  bottom: 11%;
+  z-index: 100;
+  color: white;
+  letter-spacing: 5px;
+}
